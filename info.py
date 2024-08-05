@@ -22,7 +22,7 @@ USERNAME = environ.get('USERNAME', "https://telegram.me/")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002114619001'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/xxxxxihhh')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002114619001').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ranjuvishwakarma50:aman@cluster0.wujkscn.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://aman991932:aman@cluster0.0h8g1uk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002114619001'))
